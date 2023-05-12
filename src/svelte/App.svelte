@@ -1,9 +1,10 @@
 <script lang="ts">
+
 	import type { App } from "obsidian";
 
 	import wordreference from "wordref";
 
-	export let app: App;
+	//export const app: App;
 
 	export let word: string = "this";
 	let accents = [];

@@ -2,7 +2,6 @@ import {Plugin, Editor, MarkdownView, Notice} from 'obsidian'
 
 import {TRUMPET_VIEW_TYPE} from './constants'
 import {TrumpetSettings, TrumpetSettingTab} from './settings'
-import TrumpetListView from './view'
 import TrumpetView from './view'
 
 export default class TrumpetPlugin extends Plugin {
@@ -10,7 +9,7 @@ export default class TrumpetPlugin extends Plugin {
   private settings: TrumpetSettings
 
   get view() {
-    return this.app.workspace.getLeavesOfType(TRUMPET_VIEW_TYPE)[0]?.view as TrumpetListView
+    return this.app.workspace.getLeavesOfType(TRUMPET_VIEW_TYPE)[0]?.view as TrumpetView
   }
 
   async onload() {
