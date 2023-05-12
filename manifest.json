@@ -1,11 +1,11 @@
 {
-	"id": "obsidian-sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "obsidian-speaking-trumpet",
+	"name": "Speaking Trumpet",
+	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "An Obsidian.md plugin to listen word speaking from the wordreference database",
+	"author": "ncoquelet",
+	"authorUrl": "https://github.com/ncoquelet/obsidian-speaking-trumpet",
+	"fundingUrl": "https://github.com/ncoquelet/obsidian-speaking-trumpet",
 	"isDesktopOnly": false
 }
