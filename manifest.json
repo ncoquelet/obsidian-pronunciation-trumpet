@@ -1,11 +1,11 @@
 {
-	"id": "obsidian-speaking-trumpet",
-	"name": "Speaking Trumpet",
+	"id": "obsidian-pronunciation-trumpet",
+	"name": "Pronunciation Trumpet",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "An Obsidian.md plugin to listen word speaking from the wordreference database",
+	"description": "An Obsidian.md plugin to listen the pronunciation of any words from the wordreference database.",
 	"author": "ncoquelet",
-	"authorUrl": "https://github.com/ncoquelet/obsidian-speaking-trumpet",
-	"fundingUrl": "https://github.com/ncoquelet/obsidian-speaking-trumpet",
+	"authorUrl": "https://github.com/ncoquelet/obsidian-pronunciation-trumpet",
+	"fundingUrl": "https://github.com/ncoquelet/obsidian-pronunciation-trumpet",
 	"isDesktopOnly": false
 }

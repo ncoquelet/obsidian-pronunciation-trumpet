@@ -1,6 +1,6 @@
 # Pronunciation Trumpet
 
-Obsidian plugin to pronunciate any english word from the wordreference database.
+An Obsidian.md plugin to listen the pronunciation of any words from the wordreference database.
 
 > For now, this plugin is a proof of concept that works great for the small use case it was imagined for\
 > No big effort was put on code design, user interface, feature, settings, etc...\
