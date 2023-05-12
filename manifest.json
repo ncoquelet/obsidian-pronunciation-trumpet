@@ -3,7 +3,7 @@
 	"name": "Pronunciation Trumpet",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "An Obsidian.md plugin to listen the pronunciation of any words from the wordreference database.",
+	"description": "Listen the pronunciation of any word from the wordreference.com database.",
 	"author": "ncoquelet",
 	"authorUrl": "https://github.com/ncoquelet",
 	"fundingUrl": "https://github.com/ncoquelet/obsidian-pronunciation-trumpet",

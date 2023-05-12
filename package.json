@@ -1,7 +1,7 @@
 {
 	"name": "pronunciation-trumpet",
 	"version": "0.0.1",
-	"description": "An Obsidian.md plugin to listen the pronunciation of any english word from the wordreference database.",
+	"description": "Listen the pronunciation of any word from the wordreference.com database.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
