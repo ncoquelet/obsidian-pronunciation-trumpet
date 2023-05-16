@@ -1,7 +1,7 @@
 {
 	"id": "pronunciation-trumpet",
 	"name": "Pronunciation Trumpet",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Listen the pronunciation of any word from the wordreference.com database.",
 	"author": "ncoquelet",
