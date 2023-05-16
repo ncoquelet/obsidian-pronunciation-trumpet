@@ -1,35 +1,27 @@
 <script lang="ts">
-
 	import type { App } from "obsidian";
-
-	import wordreference from "wordref";
+	import { wordreference } from "src/lib/wordreference";
+	import { Accent, Word } from "src/model/word";
 
 	//export const app: App;
 
-	export let word: string = "this";
-	let accents = [];
-	let selected;
-	let player;
+	export let search: string = "this";
+	let word:Word = new Word();
+	let selected:Accent;
+	let player: HTMLAudioElement;
 
 	export const searchAndPlaySound = async () => {
-		wordreference(word, "en", "fr", (result) => {
-			//audio/en/uk/general/en083718.mp3
-			accents = result.audio.map((element) => {
-				let code = element
-					.match(/\/audio\/en\/(.*)\/.*\.mp3/)[1]
-					.replace("/", "-")
-					.toUpperCase();
-				return { code: code, src: element };
-			});
+		word = await wordreference(search, "en", "fr");
 
-			selected = accents[0];
+		if (word.accents.length > 0) {
+			selected = word.accents[0];
+		}
 
-			playSound();
-		});
+		playSound();
 	};
 
 	const playSound = async () => {
-		player.src = "http://www.wordreference.com" + selected.src;
+		player.src = selected.src;
 		player
 			.play()
 			.catch((e) => console.error("audio play failed with: " + e));
@@ -40,10 +32,10 @@
 	<h4>Pronunciate</h4>
 
 	<form on:submit|preventDefault={() => searchAndPlaySound()}>
-		<input type="text" bind:value={word} />
+		<input type="text" bind:value={search} />
 		<button>play</button>
 		<select bind:value={selected} on:change={() => playSound()}>
-			{#each accents as accent}
+			{#each word.accents as accent}
 				<option value={accent}>
 					{accent.code}
 				</option>

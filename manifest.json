@@ -6,6 +6,5 @@
 	"description": "Listen the pronunciation of any word from the wordreference.com database.",
 	"author": "ncoquelet",
 	"authorUrl": "https://github.com/ncoquelet",
-	"fundingUrl": "https://github.com/ncoquelet/obsidian-pronunciation-trumpet",
 	"isDesktopOnly": false
 }

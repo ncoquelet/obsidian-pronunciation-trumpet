@@ -27,7 +27,7 @@ export default class TrumpetView extends ItemView {
 	}
 
 	async playSound(word: string) {
-		this._app.$set({ word: word });
+		this._app.$set({ search: word });
 		this._app.searchAndPlaySound();
 	}
 
@@ -56,9 +56,7 @@ export default class TrumpetView extends ItemView {
 	}
 
 	private props() {
-		return {
-			app: this.app,
-		};
+		return {};
 	}
 
 	private renderView() {

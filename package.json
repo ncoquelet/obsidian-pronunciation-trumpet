@@ -27,6 +27,5 @@
 		"svelte": "^3.49.0"
 	},
 	"dependencies": {
-		"wordref": "ncoquelet/wordref#fix_audio_scraping"
 	}
 }
