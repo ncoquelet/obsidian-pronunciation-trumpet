@@ -18,7 +18,7 @@ export default class TrumpetPlugin extends Plugin {
     this.addSettingTab(new TrumpetSettingTab(this.app, this))
 
     this.addCommand({
-        id: 'speak-command',
+        id: 'pronunciate-selected-word',
         name: 'Pronunciate selected word',
         editorCallback: (editor: Editor, view: MarkdownView) => {
             console.log(editor.getSelection());
