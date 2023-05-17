@@ -46,7 +46,6 @@ export default class TrumpetPlugin extends Plugin {
   }
 
   async onunload() {
-    this.app.workspace.detachLeavesOfType(TRUMPET_VIEW_TYPE);
   }
 
   async loadSettings() {
