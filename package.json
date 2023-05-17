@@ -1,6 +1,6 @@
 {
 	"name": "pronunciation-trumpet",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Listen the pronunciation of any word from the wordreference.com database.",
 	"main": "main.js",
 	"scripts": {
