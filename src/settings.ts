@@ -16,11 +16,5 @@ export class TrumpetSettingTab extends PluginSettingTab {
       text: "General Settings",
     })
 
-    this.buildSettings()
-  }
-
-  private buildSettings() {
-    /** GENERAL */
-
   }
 }
