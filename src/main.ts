@@ -21,7 +21,6 @@ export default class TrumpetPlugin extends Plugin {
         id: 'pronunciate-selected-word',
         name: 'Pronunciate selected word',
         editorCallback: (editor: Editor, view: MarkdownView) => {
-            console.log(editor.getSelection());
             new Notice('Let\'s play : ' + editor.getSelection());
             this.view.playSound(editor.getSelection());
             
